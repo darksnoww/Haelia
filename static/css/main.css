@@ -1,1 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(/image/1600w-F7URyKfYPkk.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, "sans-serif";
+}
 
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px; /* Réduire la taille du titre pour les petits écrans */
+    }
+
+    footer {
+        font-size: 14px; /* Réduire la taille du texte du footer pour les petits écrans */
+    }
+}
